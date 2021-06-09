@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  
+spring:
+  data:
+    cassandra:
+      keyspace-name: myspace
+      port: 9042
+      local-datacenter: datacenter1
+      contact-points: 127.0.0.1
+      schema-action: create_if_not_exists
